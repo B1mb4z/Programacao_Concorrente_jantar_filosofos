@@ -1,18 +1,1 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Ainda trabalhando no codigo...mas Este código implementa o Jantar dos Filósofos usando semáforos para controlar o acesso aos garfos. Cada filósofo é uma thread que alterna entre pensar e comer. Para comer, ele precisa pegar dois garfos (esquerdo e direito) usando semáforos binários. Um semáforo limitador impede que todos os filósofos tentem comer ao mesmo tempo, evitando deadlock. O programa roda por 30 segundos, registrando cada ação no console com logs detalhados.
